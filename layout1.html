@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Bài tập Layout1</title>
+  <meta charset="utf-8">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    .container header{
+      height: 120px;
+      width: 100%;
+      background-color: gray;
+      padding: 10px;
+      margin-bottom: 5px;
+    }
+    .container{
+      margin: 5px;
+    }
+    .box{
+      border: solid black 2px;
+
+    }
+    section{
+      display: flex;
+      height: 400px;
+      width: 100%;
+
+    }
+    section nav{
+      width: 180px;
+      background-color: yellow;
+      border: solid black 1px;
+
+
+    }
+    section article{
+      width: calc(100vw - 180px);
+      margin-left: 5px;
+      border: solid black 1px;
+
+    }
+    footer{
+      width: 100%;
+      margin-top: 5px;
+      height: 90px;
+      border: solid black 1px;
+      text-align: center;
+      background-color: gray;
+
+    }
+    .title {
+      text-align: center;
+    }
+
+    section nav ul{
+      list-style-type: none;
+
+
+
+    }
+
+  </style>
+</head>
+<body>
+<div class="box">
+
+  <div class="container">
+
+    <header>
+      <h2>PROCES LAYOUT EXAMPLE</h2>
+    </header>
+
+    <section>
+      <nav>
+        <h3 class="title">Main Menu</h3>
+
+        <ul>
+          <li>Link one</li>
+          <li>Link two</li>
+          <li>Link three</li>
+          <li>Link four</li>
+
+        </ul>
+      </nav>
+
+      <article>
+        <p>This is an example layout using the tables</p>
+      </article>
+    </section>
+
+    <footer>
+      <p>www.Example of layout using tables.com</p>
+    </footer>
+  </div>
+</div>
+
+</body>
+</html>

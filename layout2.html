@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài tập Layout 2</title>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+
+    }
+    h1{
+      margin: 0;
+      font-size: 30px;
+      font-family: Arial, serif;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    #container{
+      width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid black;
+    }
+    #container #header{
+      background: white;
+      height: 80px;
+      border: 1px solid black;
+    }
+    #container nav{
+      background: white;
+      height: 80px;
+      border: 1px solid black;
+    }
+
+    #container #contain #left{
+      width: 250px;
+      height: 350px;
+      background: white;
+      float: left;
+      clear: none;
+      border: 1px solid black;
+
+
+    }
+    #container #contain #right{
+      height: 350px;
+      background: white;
+      border: 1px solid black;
+      text-align: center;
+    }
+    #container #footer{
+      background: white;
+      height: 100px;
+      border: 1px solid black;
+      text-align: center;
+
+    }
+  </style>
+</head>
+
+<body>
+<div id="container">
+  <section id="header">
+    <h1>Header Section</h1>
+  </section>
+  <nav>
+    <h1>Navigation Bar</h1>
+  </nav>
+  <section id="contain">
+    <div id="left">
+      <h1>Index </h1>
+    </div>
+    <div id="right">
+      <h1>Content Section</h1>
+    </div>
+  </section>
+  <section id="footer">
+    <h1>Footer Section</h1>
+  </section>
+</div>
+</body>
+</html>
